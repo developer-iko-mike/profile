@@ -6,8 +6,8 @@
 
 ---
 
-The JavaScript logic of this project is written in just a **single line!** :
+> The JavaScript logic of this project is written in just a **single line!** :
 
-```js
+```javascript
 document.querySelectorAll('.color').forEach(color => color.addEventListener("click", e => document.documentElement.style.setProperty("--main", e.target.dataset.color)));
 ```
